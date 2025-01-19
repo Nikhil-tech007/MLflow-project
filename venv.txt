@@ -1,0 +1,15 @@
+# create virtual environment
+> python -m venv mlflowtest
+
+# activating virtual environment in windows
+> .\mlflowtest\Scripts\activate
+
+# for installing the requirement.txt file
+> pip install -r requirement.txt
+
+# to run the file
+> python main.py #provide alpha and l1 parameters
+ex: python main.py 0.8 0.2
+
+# to launch the mlflow website
+> mlfow ui
